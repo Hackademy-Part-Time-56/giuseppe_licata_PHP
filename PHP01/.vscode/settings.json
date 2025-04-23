@@ -1,0 +1,17 @@
+{
+    "editor.guides.bracketPairs": true,
+    "RainbowBrackets.depreciation-notice": false,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "livePreview.customExternalBrowser": "Edge",
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "php.validate.executablePath": "C:\\PHP\\8.3\\php.exe",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#043333",
+        "titleBar.activeBackground": "#064848",
+        "titleBar.activeForeground": "#EDFEFE"
+    },
+   
+}
