@@ -27,7 +27,7 @@ class Company {
     public $avg_salary;
     //--//
     public static $costs;
-    public static $company_num;
+    public static $company_num=0;
     
     ////==============CONSTRUCT=============
     public function __construct($_name, $_location, $tot_employes)
@@ -62,7 +62,7 @@ class Company {
         self::$costs=0;
         
         foreach ($_arr_company as $_company) {
-            self::$costs+=$_company->avg_salary;
+            self::$costs += $_company->avg_salary * $_company->tot_employes;
         }
         return self::$costs;
     }
