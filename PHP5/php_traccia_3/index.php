@@ -80,15 +80,15 @@ $lowerArr=[new LegJet, new LegKick, new LegsRun];
 function generateInstances($_instanceNumber,$_up,$_mid,$_low)
 {
 echo "\n";
-echo "--------------IRONMAN GENERATI-------------\n";
+echo "--------------IRONMANS GENERATI-------------\n";
 echo "\n";
 for ($i=0; $i < $_instanceNumber; $i++) { 
-echo "==============IronMan". $i+1 ."=============\n";
+echo "============== IronMan ". $i+1 ." =============\n";
 ${'iron' . $i} = new IronMan(chooseSkill($_up),chooseSkill($_mid),chooseSkill($_low));
 ${'iron' . $i}->myFinalSetting();
 echo "\n";
 }
-echo "====Hai generato correttamente $_instanceNumber IronMan!\n====";
+echo "== Generati correttamente $_instanceNumber IronMans!\n ==";
 }
 ///END
 
